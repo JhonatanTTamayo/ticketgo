@@ -32,9 +32,9 @@ docs/                     Diseño y documentación
 | Integrante | Responsabilidad |
 | --- | --- |
 | Jhonatan Tamayo | Repositorio, microservicio Auth y reportes |
-| Isabella | Escenarios, localidades, eventos y precios |
-| Juan Pablo | Compras, boletas y validación |
-| Ethan | Auditoría y API Gateway |
+| Isabella Cruz | Escenarios, localidades, eventos y precios |
+| Juan Pablo Aguirre | Compras, boletas y validación |
+| Ethan Jacobo Lopez| Auditoría y API Gateway |
 
 ## Convenciones de trabajo
 
