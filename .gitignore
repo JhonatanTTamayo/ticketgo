@@ -1,0 +1,24 @@
+# Dependencias y compilados de Node/NestJS
+node_modules/
+dist/
+coverage/
+
+# Variables de entorno (contraseñas, secretos)
+.env
+.env.*
+!.env.example
+
+# Java / Maven (Gateway)
+target/
+*.class
+
+# Editores y sistema
+.idea/
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
+
+# Secretos reales de Kubernetes: solo se suben los de ejemplo
+k8s/secrets/*.yaml
+!k8s/secrets/*.example.yaml
