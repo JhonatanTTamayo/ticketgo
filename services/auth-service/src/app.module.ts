@@ -3,6 +3,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { buildDatabaseConfig } from './config/database.config';
 import { validateEnvironment } from './config/env.validation';
+import { UsersModule } from './modules/users/users.module';
 
 @Module({
   imports: [
@@ -11,6 +12,7 @@ import { validateEnvironment } from './config/env.validation';
       inject: [ConfigService],
       useFactory: buildDatabaseConfig,
     }),
+    UsersModule,
   ],
 })
 export class AppModule {}
